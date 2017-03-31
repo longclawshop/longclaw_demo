@@ -5,34 +5,61 @@
 {% block body_class %} template-productpage {%endblock%}
 
 {% block content %}
-<div class="product_content">
-    <div class="image">
-    {% if page.images %}
-       {% for item in page.images.all %}
-        <div style="float: left; margin: 10px">
-            {% image item.image fill-320x240 %}
-            <p>{{ item.caption }}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>{{ page.title }}</h1>
+            <div class="product_description">{{ page.description|richtext  }}</div>
+
+            <dl>
+                <dt>Format</dt>
+                <dd>
+                <div class="col-md-6">
+                    <select id="variant-select" class="selectpicker">
+                    {% for variant in page.variants.all %}
+                    <option value="{{variant.id}}">{{variant.music_format}}</option>
+                    {% endfor %}
+                    </select>
+                </div>
+                </dd>
+            </dl>
         </div>
-    {% endfor %}
-    {% else %}
-        <img style="width: 450px; background-color: #ECEFF1;" src="..."/>
-    {% endif %}
+        <div class="col-md-6">
+            <div class="image">
+            {% if page.images %}
+            {% for item in page.images.all %}
+                {% image item.image fill-320x240 %}
+            {% endfor %}
+            {% else %}
+                <img style="width: 450px; background-color: #ECEFF1;" src="..."/>
+            {% endif %}
+            </div>
+        </div>
     </div>
-    
-    <div class="product_content_info">
-        <h1 class="product_title">{{ page.title }}</h1>
-        <div class="product_description">{{ page.description|richtext  }}</div>
+    <div class="row">
+        <div class="col-md-6">
+            {% if page.tags.all.count %}
+                <div class="tags">
+                    <h3>Tags</h3>
+                    {% for tag in page.tags.all %}
+                        <a href="{% slugurl 'tags' %}?tag={{ tag }}"><button type="button">{{ tag }}</button></a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <p><a href="{{ page.get_parent.url }}">Return</a></p>
+        </div>
     </div>
 </div>
-  {% if page.tags.all.count %}
-    <div class="tags">
-        <h3>Tags</h3>
-        {% for tag in page.tags.all %}
-            <a href="{% slugurl 'tags' %}?tag={{ tag }}"><button type="button">{{ tag }}</button></a>
-        {% endfor %}
-    </div>
-  {% endif %}
 
-    <p><a href="{{ page.get_parent.url }}">Return</a></p>
-
+{% endblock %}
+{% block extra_js %}
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.selectpicker').selectpicker();
+})
+</script>
 {% endblock %}

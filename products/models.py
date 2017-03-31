@@ -8,4 +8,8 @@ class ProductVariant(ProductVariantBase):
     # e.g. colour, size, stock and so on.
     # Remember, ProductVariantBase provides 'price', 'ref', 'slug' fields
     # and the parental key to the Product model.
-    description = RichTextField()
+    _FORMAT_CHOICES = (
+        ('CD', 'CD'),
+        ('Vinyl', 'Vinyl')
+    )
+    music_format = models.CharField(max_length=10, choices=_FORMAT_CHOICES)
