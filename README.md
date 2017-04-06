@@ -36,3 +36,21 @@ Run the server:
 ```bash
   $ python manage.py runserver
 ```
+
+Quickstart (Docker)
+-------------------
+
+Clone this repository
+```
+$ git clone https://github.com/JamesRamm/longclaw_demo.git
+$ cd longlcaw_demo
+```
+Build the docker image
+```
+$ docker build -t longclaw-demo .
+```
+Start the docker container and expose port 8000
+
+```
+$ docker run -it -p 8000:8000 longclaw-demo
+```
