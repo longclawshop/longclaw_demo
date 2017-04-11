@@ -24,7 +24,7 @@ RUN longclaw build
 
 RUN python3 /src/manage.py migrate
 
-RUN python3 /src/manage.py loaddata /src/data/user.json
+RUN python3 /src/manage.py loaddata /src/data/initial_data.json
 
 CMD python3 /src/manage.py runserver 0.0.0.0:8000
 
