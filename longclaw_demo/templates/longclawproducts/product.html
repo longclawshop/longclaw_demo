@@ -8,9 +8,35 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
+            <div class="row col-md-12">
+                <div class="image">
+                {% if page.images %}
+                {% for item in page.images.all %}
+                    {% image item.image max-640x480 %}
+                {% endfor %}
+                {% else %}
+                    <img style="width: 450px; background-color: #ECEFF1;" src="..."/>
+                {% endif %}
+                </div>
+            </div>
+            <div class="row col-md-12">
+                {% if page.tags.all.count %}
+                <div class="tags">
+                    <h3>Tags</h3>
+                    {% for tag in page.tags.all %}
+                        <a href="{% slugurl 'tags' %}?tag={{ tag }}"><button type="button">{{ tag }}</button></a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="row col-md-6">
+                <br/>
+                <a class="btn btn-default" href="{{ page.get_parent.url }}"><i class="fa fa-chevron-left"></i> Back to Products</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row col-md-12">
             <h1>{{ page.title }}</h1>
-            <div class="product_description">{{ page.description|richtext  }}</div>
-
             <dl>
                 <dt>Format</dt>
                 <dd>
@@ -23,36 +49,16 @@
                 </div>
                 </dd>
             </dl>
-        </div>
-        <div class="col-md-6">
-            <div class="image">
-            {% if page.images %}
-            {% for item in page.images.all %}
-                {% image item.image fill-320x240 %}
-            {% endfor %}
-            {% else %}
-                <img style="width: 450px; background-color: #ECEFF1;" src="..."/>
-            {% endif %}
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            {% if page.tags.all.count %}
-                <div class="tags">
-                    <h3>Tags</h3>
-                    {% for tag in page.tags.all %}
-                        <a href="{% slugurl 'tags' %}?tag={{ tag }}"><button type="button">{{ tag }}</button></a>
-                    {% endfor %}
+            <div class="row">
+                <div class="col-md-12">
+                <br />
+                {{ page.description|richtext  }}
                 </div>
-            {% endif %}
-        </div>
+            </div>
+        </div>        
     </div>
-    <div class="row">
-        <div class="col-md-3">
-            <p><a href="{{ page.get_parent.url }}">Return</a></p>
-        </div>
-    </div>
+    
 </div>
 
 {% endblock %}

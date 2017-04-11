@@ -6,15 +6,35 @@
 
 {% block content %}
 <h1>{{ page.title }}</h1>
-<div class="row">
 {% for post in page.get_children %}
+    {% if forloop.counter|divisibleby:4 %}
+    </div>
+    <div class="row">
+    {% elif forloop.counter0 == 0 %}
+    <div class="row">
+    {% endif %}
    {% with post=post.specific %}
-   <div><a href="{% pageurl post %}">
-       <div class="caption_news">
-           <h4>{{ post.title }}</h4>
-           <p>{{ post.description|richtext }}</p>
-       </div></a>
-   </div>
+    <div class="col-sm-3 col-md-3"> 
+        <div class="thumbnail">
+            {% image post.first_image.image max-320x320 %}
+            <div class="caption">
+                <h3>{{ post.title }}</h3>
+                {% with pr=post.price_range %}
+                {% if pr.0 == pr.1 %}
+                <p>£{{pr.0}}
+                {% else %}
+                <p>From £{{pr.0}}-£{{pr.1}}
+                {% endif %}
+                {% endwith %}
+                {% if post.in_stock %}
+                <span class="label label-success">In stock</span></p>
+                {% else %}
+                <span class="label label-danger">Sold out</span></p>
+                {% endif %}
+                <p><a href="{% pageurl post %}" class="btn btn-primary" role="button">View</a></p>
+            </div>
+        </div>
+    </div>
    {% endwith %}
 {% endfor %}
 </div>
