@@ -36,19 +36,29 @@
         </div>
         <div class="col-md-6">
             <div class="row col-md-12">
-            <h1>{{ page.title }}</h1>
-            <dl>
-                <dt>Format</dt>
-                <dd>
-                <div class="col-md-6">
-                    <select id="variant-select" class="selectpicker">
-                    {% for variant in page.variants.all %}
-                    <option value="{{variant.id}}">{{variant.music_format}}</option>
-                    {% endfor %}
-                    </select>
-                </div>
-                </dd>
-            </dl>
+                <h1>{{ page.title }}</h1>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Format</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for variant in page.variants.all %}
+                        <tr>
+                            <td><p>{{variant.music_format}}</p></td>
+                            <td>
+                                {% if variant.stock > 0 %}
+                                <button class="btn btn-success" data-variant-id="{{variant.id}}" id="btn-add-to-cart">Add to Cart</button>
+                                {% else %}
+                                <span class="label label-danger">Sold out</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -61,11 +71,4 @@
     
 </div>
 
-{% endblock %}
-{% block extra_js %}
-<script type="text/javascript">
-$(document).ready(function() {
-    $('.selectpicker').selectpicker();
-})
-</script>
 {% endblock %}

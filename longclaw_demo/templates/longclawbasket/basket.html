@@ -1,10 +1,37 @@
 {% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
+
 
 {% block content %}
     <h2>Your Basket</h2>
-    <ul>
-    {% for item in basket %}
-    <li>{{item.variant.product.title}} - {{item.variant.ref}}</li>
-    {% endfor %}
-    </ul>
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in basket %}
+            <tr>
+                <td>{% image item.variant.product.first_image.image max-75x75 %}</td>
+                <td>{{item.variant.product.title}} - {{item.variant.ref}}</td>
+                <td>{{item.quantity}}</td>
+                <td>{{item.total}}</td>
+            </tr>
+        {% empty %}
+            <tr>
+                <td colspan="4"><p class="text-center">There is nothing in your basket!</p></td>
+            </tr>
+        {% endfor %}
+            <tr>
+                <td />
+                <td />
+                <td />
+                <th>{{total_price}}</th>
+            <tr>
+        </tbody>
+    <table>
 {% endblock %}

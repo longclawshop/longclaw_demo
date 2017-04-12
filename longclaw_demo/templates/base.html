@@ -26,26 +26,34 @@
 <body class="{% block body_class %}{% endblock %}">
     {% wagtailuserbar %}
     <nav id="topNav" class="navbar navbar-default">
-          <div class="container">
-
-        <div class="navbar-header">
-            <a class="navbar-brand" href="/">Longclaw</a>
-        </div>
-        <ul class="nav navbar-nav navbar-left">
-            <li><a href="/products">Products</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="{% url 'longclaw_basket' %}"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
-            <li><a href="/admin">Admin</a></li>
-        </ul>
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Longclaw</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" >
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/products">Products</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{% url 'longclaw_basket' %}"><span id="item-count"> </span><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/admin">Admin</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container">
     {% block content %} {% endblock %} {# Global javascript #}
     </div>
-    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
