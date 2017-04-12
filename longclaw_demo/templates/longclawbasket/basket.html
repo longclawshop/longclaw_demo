@@ -26,12 +26,20 @@
                 <td colspan="4"><p class="text-center">There is nothing in your basket!</p></td>
             </tr>
         {% endfor %}
+        {% if basket.count > 0 %}
             <tr>
                 <td />
                 <td />
                 <td />
                 <th>{{total_price}}</th>
             <tr>
+            <tr>
+                <td />
+                <td />
+                <td />
+                <td><button class="btn btn-default" id="btn-checkout">Checkout</button></td>
+            <tr>
+        {% endif %}
         </tbody>
     <table>
 {% endblock %}
