@@ -23,6 +23,10 @@ $(document).ready(function(){
     // Respond to checkout button click events
     $('#btn-checkout').click(checkout);
 
+    $('#order-modal').on('hidden.bs.modal', function (event) {
+        document.location.href = '/';
+    });
+
 });
 
 /**
@@ -72,12 +76,16 @@ function checkout() {
             billing_address_country: ''
         },
         email: '',
-        shipping: 0
+        shipping_rate: 0
     };
     $.post({
         url: '/api/checkout/',
-        data: fakeData,
-        success: function(){},
-        headers: {"X-CSRFToken": Cookies.get('csrftoken')}
+        data: JSON.stringify(fakeData),
+        success: function(data){
+            console.log(data);
+            $('#order-id').text(data.order_id);
+            $('#order-modal').modal('show');
+        },
+        headers: {'X-CSRFToken': Cookies.get('csrftoken'), 'Content-Type': 'application/json'}
     });
 }
