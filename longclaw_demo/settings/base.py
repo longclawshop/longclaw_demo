@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'modelcluster',
     'taggit',
     'rest_framework',
+    'crispy_forms',
 
     'longclaw.longclawsettings',
     'longclaw.longclawshipping',
@@ -161,3 +162,5 @@ BASE_URL = 'http://example.com'
 PAYMENT_GATEWAY = 'longclaw.longclawcheckout.gateways.BasePayment'
 
 PRODUCT_VARIANT_MODEL = 'products.ProductVariant'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
