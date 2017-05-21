@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+<div class="row text-center">
+<h4>Thankyou for your order!</h4>
+<p>Thanks! your order ID is #{{order.id}}</p>
+<p>Since this is a demo we have skipped taking payment details and performing a 'real' checkout</p>
+<p>A production setup would generally require to pass a payment token in the POST data</p>
+<p>You can view the created order in the <a href="/admin">Wagtail admin</a>. Login with demo/demo</p>
+</div>
+
+{% endblock %}

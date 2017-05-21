@@ -27,6 +27,12 @@ $(document).ready(function(){
         document.location.href = '/';
     });
 
+    $('#add-billing').click(function(){
+        console.log("CLICK")
+        $('#billing-form').show();
+        $('#add-billing').hide();
+    })
+
 });
 
 /**
