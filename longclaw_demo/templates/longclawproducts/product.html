@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load wagtailcore_tags wagtailimages_tags %}
+{% load wagtailcore_tags wagtailimages_tags longclawbasket_tags %}
 
 {% block body_class %} template-productpage {%endblock%}
 
@@ -50,7 +50,7 @@
                             <td><p>{{variant.music_format}}</p></td>
                             <td>
                                 {% if variant.stock > 0 %}
-                                <button class="btn btn-success" data-variant-id="{{variant.id}}" id="btn-add-to-cart">Add to Cart</button>
+                                {% add_to_basket_btn variant.id btn_text="Add To Basket" btn_class="btn btn-success" %}
                                 {% else %}
                                 <span class="label label-danger">Sold out</span>
                                 {% endif %}
@@ -66,9 +66,9 @@
                 {{ page.description|richtext  }}
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
-    
+
 </div>
 
 {% endblock %}

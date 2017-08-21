@@ -1,23 +1,12 @@
 // Javascript for longclaw demo site
 
 $(document).ready(function(){
-    // When the page loads, get the number of items in the basket 
+    // When the page loads, get the number of items in the basket
     // to display in the nav bar
     $.get({
         url: '/api/basket/count',
         success: function(data){ setCartCount(data.quantity); },
         headers: {"X-CSRFToken": Cookies.get('csrftoken')}
-    });
-
-    // Respond to 'Add To Cart' button click events
-    $('#btn-add-to-cart').click(function(e){
-        var variant_id = e.target.dataset.variantId;
-        $.post({
-            url: '/api/basket/',
-            data: { variant_id: variant_id },
-            success: increaseItemCount,
-            headers: {"X-CSRFToken": Cookies.get('csrftoken')}
-        });
     });
 
     // Respond to checkout button click events
@@ -31,17 +20,19 @@ $(document).ready(function(){
         console.log("CLICK")
         $('#billing-form').show();
         $('#add-billing').hide();
-    })
+    });
+
+    $('#btn-add-to-basket').click(increaseItemCount);
 
 });
 
 /**
  * Set the value of the basket item counter in the nav bar
- * @param {*} count 
+ * @param {*} count
  */
 function setCartCount(count) {
     if (count === 0) {
-        $('#item-count').text('');    
+        $('#item-count').text('');
     }
     else {
         $('#item-count').text(`${count} `);

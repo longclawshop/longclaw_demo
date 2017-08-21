@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'crispy_forms',
 
+    'longclaw.longclawcore',
     'longclaw.longclawsettings',
     'longclaw.longclawshipping',
     'longclaw.longclawproducts',
