@@ -470,17 +470,7 @@
     "image": 2
   }
 },
-{
-  "model": "wagtailcore.site",
-  "pk": 2,
-  "fields": {
-    "hostname": "localhost",
-    "port": 80,
-    "site_name": null,
-    "root_page": 3,
-    "is_default_site": true
-  }
-},
+
 {
   "model": "wagtailcore.collection",
   "pk": 1,
@@ -971,518 +961,13 @@
   }
 },
 {
-  "model": "longclawproducts.producttag",
-  "pk": 17,
-  "fields": {
-    "tag": 8,
-    "content_object": 7
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 18,
-  "fields": {
-    "tag": 9,
-    "content_object": 7
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 19,
-  "fields": {
-    "tag": 5,
-    "content_object": 7
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 20,
-  "fields": {
-    "tag": 1,
-    "content_object": 7
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 21,
-  "fields": {
-    "tag": 8,
-    "content_object": 8
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 22,
-  "fields": {
-    "tag": 1,
-    "content_object": 8
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 23,
-  "fields": {
-    "tag": 11,
-    "content_object": 8
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 24,
-  "fields": {
-    "tag": 5,
-    "content_object": 8
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 25,
-  "fields": {
-    "tag": 8,
-    "content_object": 9
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 26,
-  "fields": {
-    "tag": 1,
-    "content_object": 9
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 27,
-  "fields": {
-    "tag": 5,
-    "content_object": 9
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 28,
-  "fields": {
-    "tag": 14,
-    "content_object": 9
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 33,
-  "fields": {
-    "tag": 8,
-    "content_object": 10
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 34,
-  "fields": {
-    "tag": 1,
-    "content_object": 10
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 35,
-  "fields": {
-    "tag": 5,
-    "content_object": 10
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 36,
-  "fields": {
-    "tag": 13,
-    "content_object": 10
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 37,
-  "fields": {
-    "tag": 8,
-    "content_object": 11
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 38,
-  "fields": {
-    "tag": 1,
-    "content_object": 11
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 39,
-  "fields": {
-    "tag": 12,
-    "content_object": 11
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 40,
-  "fields": {
-    "tag": 5,
-    "content_object": 11
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 41,
-  "fields": {
-    "tag": 8,
-    "content_object": 12
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 42,
-  "fields": {
-    "tag": 1,
-    "content_object": 12
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 43,
-  "fields": {
-    "tag": 15,
-    "content_object": 12
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 44,
-  "fields": {
-    "tag": 8,
-    "content_object": 13
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 45,
-  "fields": {
-    "tag": 1,
-    "content_object": 13
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 46,
-  "fields": {
-    "tag": 5,
-    "content_object": 13
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 47,
-  "fields": {
-    "tag": 16,
-    "content_object": 13
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 48,
-  "fields": {
-    "tag": 8,
-    "content_object": 14
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 49,
-  "fields": {
-    "tag": 1,
-    "content_object": 14
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 50,
-  "fields": {
-    "tag": 18,
-    "content_object": 14
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 51,
-  "fields": {
-    "tag": 5,
-    "content_object": 14
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 52,
-  "fields": {
-    "tag": 17,
-    "content_object": 14
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 53,
-  "fields": {
-    "tag": 8,
-    "content_object": 6
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 54,
-  "fields": {
-    "tag": 1,
-    "content_object": 6
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 55,
-  "fields": {
-    "tag": 5,
-    "content_object": 6
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 56,
-  "fields": {
-    "tag": 7,
-    "content_object": 6
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 57,
-  "fields": {
-    "tag": 8,
-    "content_object": 15
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 58,
-  "fields": {
-    "tag": 1,
-    "content_object": 15
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 59,
-  "fields": {
-    "tag": 18,
-    "content_object": 15
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 60,
-  "fields": {
-    "tag": 5,
-    "content_object": 15
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 61,
-  "fields": {
-    "tag": 17,
-    "content_object": 15
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 62,
-  "fields": {
-    "tag": 8,
-    "content_object": 16
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 63,
-  "fields": {
-    "tag": 1,
-    "content_object": 16
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 64,
-  "fields": {
-    "tag": 19,
-    "content_object": 16
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 65,
-  "fields": {
-    "tag": 1,
-    "content_object": 5
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 66,
-  "fields": {
-    "tag": 4,
-    "content_object": 5
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 67,
-  "fields": {
-    "tag": 5,
-    "content_object": 5
-  }
-},
-{
-  "model": "longclawproducts.producttag",
-  "pk": 68,
-  "fields": {
-    "tag": 6,
-    "content_object": 5
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 1,
-  "fields": {
-    "sort_order": 0,
-    "product": 5,
-    "image": 1,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 2,
-  "fields": {
-    "sort_order": 0,
-    "product": 6,
-    "image": 2,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 3,
-  "fields": {
-    "sort_order": 0,
-    "product": 7,
-    "image": 3,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 4,
-  "fields": {
-    "sort_order": 0,
-    "product": 8,
-    "image": 4,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 5,
-  "fields": {
-    "sort_order": 0,
-    "product": 9,
-    "image": 7,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 6,
-  "fields": {
-    "sort_order": 0,
-    "product": 10,
-    "image": 6,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 7,
-  "fields": {
-    "sort_order": 0,
-    "product": 11,
-    "image": 5,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 8,
-  "fields": {
-    "sort_order": 0,
-    "product": 12,
-    "image": 8,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 9,
-  "fields": {
-    "sort_order": 0,
-    "product": 13,
-    "image": 9,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 10,
-  "fields": {
-    "sort_order": 0,
-    "product": 14,
-    "image": 10,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 11,
-  "fields": {
-    "sort_order": 0,
-    "product": 15,
-    "image": 11,
-    "caption": ""
-  }
-},
-{
-  "model": "longclawproducts.productimage",
-  "pk": 12,
-  "fields": {
-    "sort_order": 0,
-    "product": 16,
-    "image": 12,
-    "caption": ""
-  }
-},
-{
   "model": "products.productvariant",
   "pk": 1,
   "fields": {
     "product": 5,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 5,
-    "slug": "atshirtsmall",
     "music_format": "CD"
   }
 },
@@ -1491,10 +976,9 @@
   "pk": 4,
   "fields": {
     "product": 5,
-    "price": "15.99",
+    "base_price": "15.99",
     "ref": "vinyl",
     "stock": 5,
-    "slug": "ramshacklesbluebellwoodsvinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1503,10 +987,9 @@
   "pk": 5,
   "fields": {
     "product": 7,
-    "price": "21.99",
+    "base_price": "21.99",
     "ref": "vinyl",
     "stock": 5,
-    "slug": "bobdylanblondeonblondevinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1515,10 +998,9 @@
   "pk": 6,
   "fields": {
     "product": 8,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 0,
-    "slug": "joannanewsomyscd",
     "music_format": "CD"
   }
 },
@@ -1527,10 +1009,9 @@
   "pk": 7,
   "fields": {
     "product": 8,
-    "price": "15.99",
+    "base_price": "15.99",
     "ref": "vinyl",
     "stock": 20,
-    "slug": "joannanewsomysvinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1539,10 +1020,9 @@
   "pk": 8,
   "fields": {
     "product": 9,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 55,
-    "slug": "themicrophonestheglowpart2cd",
     "music_format": "CD"
   }
 },
@@ -1551,10 +1031,9 @@
   "pk": 9,
   "fields": {
     "product": 9,
-    "price": "15.99",
+    "base_price": "15.99",
     "ref": "vinyl",
     "stock": 6,
-    "slug": "themicrophonestheglowpart2vinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1563,10 +1042,9 @@
   "pk": 10,
   "fields": {
     "product": 10,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 10,
-    "slug": "midlakethetrialsofvanoccupanthercd",
     "music_format": "CD"
   }
 },
@@ -1575,10 +1053,9 @@
   "pk": 11,
   "fields": {
     "product": 11,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 15,
-    "slug": "sufjanstevenscarrieandlowellcd",
     "music_format": "CD"
   }
 },
@@ -1587,10 +1064,9 @@
   "pk": 12,
   "fields": {
     "product": 11,
-    "price": "15.99",
+    "base_price": "15.99",
     "ref": "vinyl",
     "stock": 5,
-    "slug": "sufjanstevenscarrieandlowellvinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1599,10 +1075,9 @@
   "pk": 13,
   "fields": {
     "product": 12,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 10,
-    "slug": "ironwineourendlessnumbereddayscd",
     "music_format": "CD"
   }
 },
@@ -1611,10 +1086,9 @@
   "pk": 14,
   "fields": {
     "product": 13,
-    "price": "20.99",
+    "base_price": "20.99",
     "ref": "vinyl",
     "stock": 5,
-    "slug": "thedecemberistspicaresquevinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1623,10 +1097,9 @@
   "pk": 15,
   "fields": {
     "product": 14,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 44,
-    "slug": "thetallestmanonearththewildhuntcd",
     "music_format": "CD"
   }
 },
@@ -1635,10 +1108,9 @@
   "pk": 16,
   "fields": {
     "product": 14,
-    "price": "15.99",
+    "base_price": "15.99",
     "ref": "vinyl",
     "stock": 20,
-    "slug": "thetallestmanonearththewildhuntvinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1647,10 +1119,9 @@
   "pk": 17,
   "fields": {
     "product": 6,
-    "price": "7.99",
+    "base_price": "7.99",
     "ref": "cd",
     "stock": 0,
-    "slug": "fleetfoxesfleetfoxescd",
     "music_format": "CD"
   }
 },
@@ -1659,10 +1130,9 @@
   "pk": 18,
   "fields": {
     "product": 15,
-    "price": "5.99",
+    "base_price": "5.99",
     "ref": "cd",
     "stock": 0,
-    "slug": "thetallestmanonearthshallowgravecd",
     "music_format": "CD"
   }
 },
@@ -1671,10 +1141,9 @@
   "pk": 19,
   "fields": {
     "product": 15,
-    "price": "16.96",
+    "base_price": "16.96",
     "ref": "vinyl",
     "stock": 0,
-    "slug": "thetallestmanonearthshallowgravevinyl",
     "music_format": "Vinyl"
   }
 },
@@ -1683,10 +1152,9 @@
   "pk": 20,
   "fields": {
     "product": 16,
-    "price": "5.99",
+    "base_price": "5.99",
     "ref": "cd",
     "stock": 10,
-    "slug": "wilcoyankeehotelfoxtrotcd",
     "music_format": "CD"
   }
 },
@@ -2319,7 +1787,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-03-31T07:09:24.343Z",
     "user": 1,
-    "content_json": "{\"expired\": false, \"go_live_at\": null, \"path\": \"0001000100010001\", \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"expire_at\": null, \"latest_revision_created_at\": null, \"slug\": \"t-shirt\", \"title\": \"A T-Shirt\", \"live\": false, \"first_published_at\": null, \"show_in_menus\": false, \"locked\": false, \"owner\": 1, \"description\": \"<p>Some random tshirt</p>\", \"depth\": 4, \"pk\": 5, \"variants\": [{\"slug\": \"atshirtsmall\", \"ref\": \"small\", \"pk\": 1, \"product\": 5, \"stock\": 5, \"size\": \"S\", \"price\": \"15.00\"}, {\"slug\": \"atshirtmedium\", \"ref\": \"medium\", \"pk\": 2, \"product\": 5, \"stock\": 5, \"size\": \"M\", \"price\": \"15.00\"}, {\"slug\": \"atshirtlarge\", \"ref\": \"large\", \"pk\": 3, \"product\": 5, \"stock\": 5, \"size\": \"L\", \"price\": \"15.00\"}], \"content_type\": 34, \"images\": [], \"tagged_items\": [], \"numchild\": 0, \"seo_title\": \"\", \"has_unpublished_changes\": false}",
+    "content_json": "{\"expired\": false, \"go_live_at\": null, \"path\": \"0001000100010001\", \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"expire_at\": null, \"latest_revision_created_at\": null, \"slug\": \"t-shirt\", \"title\": \"A T-Shirt\", \"live\": false, \"first_published_at\": null, \"show_in_menus\": false, \"locked\": false, \"owner\": 1, \"description\": \"<p>Some random tshirt</p>\", \"depth\": 4, \"pk\": 5, \"variants\": [{\"slug\": \"atshirtsmall\", \"ref\": \"small\", \"pk\": 1, \"product\": 5, \"stock\": 5, \"size\": \"S\", \"base_price\": \"15.00\"}, {\"slug\": \"atshirtmedium\", \"ref\": \"medium\", \"pk\": 2, \"product\": 5, \"stock\": 5, \"size\": \"M\", \"base_price\": \"15.00\"}, {\"slug\": \"atshirtlarge\", \"ref\": \"large\", \"pk\": 3, \"product\": 5, \"stock\": 5, \"size\": \"L\", \"base_price\": \"15.00\"}], \"content_type\": 34, \"images\": [], \"tagged_items\": [], \"numchild\": 0, \"seo_title\": \"\", \"has_unpublished_changes\": false}",
     "approved_go_live_at": null
   }
 },
@@ -2331,7 +1799,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-03-31T07:09:27.841Z",
     "user": 1,
-    "content_json": "{\"expired\": false, \"go_live_at\": null, \"path\": \"0001000100010001\", \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"expire_at\": null, \"latest_revision_created_at\": \"2017-03-31T07:09:24.343Z\", \"slug\": \"t-shirt\", \"title\": \"A T-Shirt\", \"live\": false, \"first_published_at\": null, \"show_in_menus\": false, \"locked\": false, \"owner\": 1, \"description\": \"<p>Some random tshirt</p>\", \"depth\": 4, \"pk\": 5, \"variants\": [{\"slug\": \"atshirtsmall\", \"ref\": \"small\", \"pk\": 1, \"product\": null, \"stock\": 5, \"size\": \"S\", \"price\": \"15.00\"}, {\"slug\": \"atshirtmedium\", \"ref\": \"medium\", \"pk\": 2, \"product\": null, \"stock\": 5, \"size\": \"M\", \"price\": \"15.00\"}, {\"slug\": \"atshirtlarge\", \"ref\": \"large\", \"pk\": 3, \"product\": null, \"stock\": 5, \"size\": \"L\", \"price\": \"15.00\"}], \"content_type\": 34, \"images\": [], \"tagged_items\": [], \"numchild\": 0, \"seo_title\": \"\", \"has_unpublished_changes\": true}",
+    "content_json": "{\"expired\": false, \"go_live_at\": null, \"path\": \"0001000100010001\", \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"expire_at\": null, \"latest_revision_created_at\": \"2017-03-31T07:09:24.343Z\", \"slug\": \"t-shirt\", \"title\": \"A T-Shirt\", \"live\": false, \"first_published_at\": null, \"show_in_menus\": false, \"locked\": false, \"owner\": 1, \"description\": \"<p>Some random tshirt</p>\", \"depth\": 4, \"pk\": 5, \"variants\": [{\"slug\": \"atshirtsmall\", \"ref\": \"small\", \"pk\": 1, \"product\": null, \"stock\": 5, \"size\": \"S\", \"base_price\": \"15.00\"}, {\"slug\": \"atshirtmedium\", \"ref\": \"medium\", \"pk\": 2, \"product\": null, \"stock\": 5, \"size\": \"M\", \"base_price\": \"15.00\"}, {\"slug\": \"atshirtlarge\", \"ref\": \"large\", \"pk\": 3, \"product\": null, \"stock\": 5, \"size\": \"L\", \"base_price\": \"15.00\"}], \"content_type\": 34, \"images\": [], \"tagged_items\": [], \"numchild\": 0, \"seo_title\": \"\", \"has_unpublished_changes\": true}",
     "approved_go_live_at": null
   }
 },
@@ -2343,7 +1811,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-03-31T07:19:35.523Z",
     "user": 1,
-    "content_json": "{\"tagged_items\": [], \"has_unpublished_changes\": false, \"images\": [], \"content_type\": 34, \"seo_title\": \"\", \"numchild\": 0, \"pk\": 5, \"live\": true, \"depth\": 4, \"url_path\": \"/home/products/t-shirt/\", \"title\": \"Ramshackles - Bluebell Woods\", \"variants\": [{\"pk\": 1, \"music_format\": \"CD\", \"product\": 5, \"ref\": \"cd\", \"slug\": \"atshirtsmall\", \"stock\": 5, \"price\": \"7.99\"}, {\"pk\": null, \"music_format\": \"Vinyl\", \"product\": 5, \"ref\": \"vinyl\", \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"stock\": 5, \"price\": \"15.99\"}], \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"go_live_at\": null, \"slug\": \"t-shirt\", \"latest_revision_created_at\": \"2017-03-31T07:09:27.841Z\", \"show_in_menus\": false, \"expired\": false, \"search_description\": \"\", \"path\": \"0001000100010001\", \"owner\": 1, \"locked\": false}",
+    "content_json": "{\"tagged_items\": [], \"has_unpublished_changes\": false, \"images\": [], \"content_type\": 34, \"seo_title\": \"\", \"numchild\": 0, \"pk\": 5, \"live\": true, \"depth\": 4, \"url_path\": \"/home/products/t-shirt/\", \"title\": \"Ramshackles - Bluebell Woods\", \"variants\": [{\"pk\": 1, \"music_format\": \"CD\", \"product\": 5, \"ref\": \"cd\", \"slug\": \"atshirtsmall\", \"stock\": 5, \"base_price\": \"7.99\"}, {\"pk\": null, \"music_format\": \"Vinyl\", \"product\": 5, \"ref\": \"vinyl\", \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"stock\": 5, \"base_price\": \"15.99\"}], \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"go_live_at\": null, \"slug\": \"t-shirt\", \"latest_revision_created_at\": \"2017-03-31T07:09:27.841Z\", \"show_in_menus\": false, \"expired\": false, \"search_description\": \"\", \"path\": \"0001000100010001\", \"owner\": 1, \"locked\": false}",
     "approved_go_live_at": null
   }
 },
@@ -2355,7 +1823,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-03-31T07:44:26.071Z",
     "user": 1,
-    "content_json": "{\"tagged_items\": [], \"has_unpublished_changes\": false, \"images\": [], \"content_type\": 34, \"seo_title\": \"\", \"numchild\": 0, \"pk\": 5, \"live\": true, \"depth\": 4, \"url_path\": \"/home/products/t-shirt/\", \"title\": \"Ramshackles - Bluebell Woods\", \"variants\": [{\"pk\": 1, \"music_format\": \"CD\", \"product\": 5, \"ref\": \"cd\", \"slug\": \"atshirtsmall\", \"stock\": 5, \"price\": \"7.99\"}, {\"pk\": 4, \"music_format\": \"Vinyl\", \"product\": 5, \"ref\": \"vinyl\", \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"stock\": 5, \"price\": \"15.99\"}], \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"go_live_at\": null, \"slug\": \"t-shirt\", \"latest_revision_created_at\": \"2017-03-31T07:19:35.523Z\", \"show_in_menus\": false, \"expired\": false, \"search_description\": \"\", \"path\": \"0001000100010001\", \"owner\": 1, \"locked\": false}",
+    "content_json": "{\"tagged_items\": [], \"has_unpublished_changes\": false, \"images\": [], \"content_type\": 34, \"seo_title\": \"\", \"numchild\": 0, \"pk\": 5, \"live\": true, \"depth\": 4, \"url_path\": \"/home/products/t-shirt/\", \"title\": \"Ramshackles - Bluebell Woods\", \"variants\": [{\"pk\": 1, \"music_format\": \"CD\", \"product\": 5, \"ref\": \"cd\", \"slug\": \"atshirtsmall\", \"stock\": 5, \"base_price\": \"7.99\"}, {\"pk\": 4, \"music_format\": \"Vinyl\", \"product\": 5, \"ref\": \"vinyl\", \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"stock\": 5, \"base_price\": \"15.99\"}], \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"go_live_at\": null, \"slug\": \"t-shirt\", \"latest_revision_created_at\": \"2017-03-31T07:19:35.523Z\", \"show_in_menus\": false, \"expired\": false, \"search_description\": \"\", \"path\": \"0001000100010001\", \"owner\": 1, \"locked\": false}",
     "approved_go_live_at": null
   }
 },
@@ -2367,7 +1835,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-03-31T07:55:12.615Z",
     "user": 1,
-    "content_json": "{\"expire_at\": null, \"seo_title\": \"\", \"title\": \"Ramshackles - Bluebell Woods\", \"pk\": 5, \"path\": \"0001000100010001\", \"slug\": \"t-shirt\", \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"owner\": 1, \"tagged_items\": [], \"has_unpublished_changes\": false, \"description\": \"<p>Some random tshirt</p>\", \"content_type\": 34, \"locked\": false, \"expired\": false, \"numchild\": 0, \"go_live_at\": null, \"depth\": 4, \"variants\": [{\"price\": \"7.99\", \"pk\": 1, \"stock\": 5, \"product\": 5, \"music_format\": \"CD\", \"ref\": \"cd\", \"slug\": \"atshirtsmall\"}, {\"price\": \"15.99\", \"pk\": 4, \"stock\": 5, \"product\": 5, \"music_format\": \"Vinyl\", \"ref\": \"vinyl\", \"slug\": \"ramshacklesbluebellwoodsvinyl\"}], \"live\": true, \"url_path\": \"/home/products/t-shirt/\", \"latest_revision_created_at\": \"2017-03-31T07:44:26.071Z\", \"show_in_menus\": false, \"images\": [], \"search_description\": \"\"}",
+    "content_json": "{\"expire_at\": null, \"seo_title\": \"\", \"title\": \"Ramshackles - Bluebell Woods\", \"pk\": 5, \"path\": \"0001000100010001\", \"slug\": \"t-shirt\", \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"owner\": 1, \"tagged_items\": [], \"has_unpublished_changes\": false, \"description\": \"<p>Some random tshirt</p>\", \"content_type\": 34, \"locked\": false, \"expired\": false, \"numchild\": 0, \"go_live_at\": null, \"depth\": 4, \"variants\": [{\"base_price\": \"7.99\", \"pk\": 1, \"stock\": 5, \"product\": 5, \"music_format\": \"CD\", \"ref\": \"cd\", \"slug\": \"atshirtsmall\"}, {\"base_price\": \"15.99\", \"pk\": 4, \"stock\": 5, \"product\": 5, \"music_format\": \"Vinyl\", \"ref\": \"vinyl\", \"slug\": \"ramshacklesbluebellwoodsvinyl\"}], \"live\": true, \"url_path\": \"/home/products/t-shirt/\", \"latest_revision_created_at\": \"2017-03-31T07:44:26.071Z\", \"show_in_menus\": false, \"images\": [], \"search_description\": \"\"}",
     "approved_go_live_at": null
   }
 },
@@ -2379,7 +1847,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:30:51.342Z",
     "user": 1,
-    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-03-31T07:55:12.615Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-03-31T07:55:12.615Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2391,7 +1859,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:31:15.796Z",
     "user": 1,
-    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [{\"product\": 5, \"caption\": \"\", \"sort_order\": 0, \"image\": 1, \"pk\": null}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-04-11T07:30:51.342Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Some random tshirt</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [{\"product\": 5, \"caption\": \"\", \"sort_order\": 0, \"image\": 1, \"pk\": null}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-04-11T07:30:51.342Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2415,7 +1883,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:41:28.279Z",
     "user": 1,
-    "content_json": "{\"slug\": \"bob-dylan-blonde-blonde\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 7, \"tag\": 8, \"pk\": 13}, {\"content_object\": 7, \"tag\": 9, \"pk\": 14}, {\"content_object\": 7, \"tag\": 5, \"pk\": 15}, {\"content_object\": 7, \"tag\": 1, \"pk\": 16}], \"pk\": 7, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus metus, ut semper diam. Ut ac vulputate ligula. Maecenas ut nulla id neque consequat iaculis sed venenatis augue. Cras et ligula eu nunc dignissim aliquam et quis risus. Aenean in odio et turpis porta tristique. Pellentesque habitant morbi tristique.</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 7, \"caption\": \"\", \"sort_order\": 0, \"image\": 3, \"pk\": 3}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"21.99\", \"stock\": 5, \"product\": 7, \"slug\": \"bobdylanblondeonblondevinyl\", \"ref\": \"vinyl\", \"pk\": 5, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/bob-dylan-blonde-blonde/\", \"search_description\": \"\", \"path\": \"0001000100010003\", \"expired\": false, \"title\": \"Bob Dylan - Blonde on Blonde\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"bob-dylan-blonde-blonde\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 7, \"tag\": 8, \"pk\": 13}, {\"content_object\": 7, \"tag\": 9, \"pk\": 14}, {\"content_object\": 7, \"tag\": 5, \"pk\": 15}, {\"content_object\": 7, \"tag\": 1, \"pk\": 16}], \"pk\": 7, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus metus, ut semper diam. Ut ac vulputate ligula. Maecenas ut nulla id neque consequat iaculis sed venenatis augue. Cras et ligula eu nunc dignissim aliquam et quis risus. Aenean in odio et turpis porta tristique. Pellentesque habitant morbi tristique.</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 7, \"caption\": \"\", \"sort_order\": 0, \"image\": 3, \"pk\": 3}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"21.99\", \"stock\": 5, \"product\": 7, \"slug\": \"bobdylanblondeonblondevinyl\", \"ref\": \"vinyl\", \"pk\": 5, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/bob-dylan-blonde-blonde/\", \"search_description\": \"\", \"path\": \"0001000100010003\", \"expired\": false, \"title\": \"Bob Dylan - Blonde on Blonde\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2427,7 +1895,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:41:50.484Z",
     "user": 1,
-    "content_json": "{\"slug\": \"bob-dylan-blonde-blonde\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 7, \"tag\": 8, \"pk\": null}, {\"content_object\": 7, \"tag\": 9, \"pk\": null}, {\"content_object\": 7, \"tag\": 5, \"pk\": null}, {\"content_object\": 7, \"tag\": 1, \"pk\": null}], \"pk\": 7, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus metus, ut semper diam. Ut ac vulputate ligula. Maecenas ut nulla id neque consequat iaculis sed venenatis augue.\\u00a0</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-04-11T07:41:28.337Z\", \"images\": [{\"product\": 7, \"caption\": \"\", \"sort_order\": 0, \"image\": 3, \"pk\": 3}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"21.99\", \"stock\": 5, \"product\": 7, \"slug\": \"bobdylanblondeonblondevinyl\", \"ref\": \"vinyl\", \"pk\": 5, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/bob-dylan-blonde-blonde/\", \"search_description\": \"\", \"path\": \"0001000100010003\", \"expired\": false, \"title\": \"Bob Dylan - Blonde on Blonde\", \"latest_revision_created_at\": \"2017-04-11T07:41:28.279Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"bob-dylan-blonde-blonde\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 7, \"tag\": 8, \"pk\": null}, {\"content_object\": 7, \"tag\": 9, \"pk\": null}, {\"content_object\": 7, \"tag\": 5, \"pk\": null}, {\"content_object\": 7, \"tag\": 1, \"pk\": null}], \"pk\": 7, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus metus, ut semper diam. Ut ac vulputate ligula. Maecenas ut nulla id neque consequat iaculis sed venenatis augue.\\u00a0</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-04-11T07:41:28.337Z\", \"images\": [{\"product\": 7, \"caption\": \"\", \"sort_order\": 0, \"image\": 3, \"pk\": 3}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"21.99\", \"stock\": 5, \"product\": 7, \"slug\": \"bobdylanblondeonblondevinyl\", \"ref\": \"vinyl\", \"pk\": 5, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/bob-dylan-blonde-blonde/\", \"search_description\": \"\", \"path\": \"0001000100010003\", \"expired\": false, \"title\": \"Bob Dylan - Blonde on Blonde\", \"latest_revision_created_at\": \"2017-04-11T07:41:28.279Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2439,7 +1907,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:53:03.549Z",
     "user": 1,
-    "content_json": "{\"slug\": \"joanna-newsom-ys\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 8, \"tag\": 8, \"pk\": 21}, {\"content_object\": 8, \"tag\": 1, \"pk\": 22}, {\"content_object\": 8, \"tag\": 11, \"pk\": 23}, {\"content_object\": 8, \"tag\": 5, \"pk\": 24}], \"pk\": 8, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nibh orci. Maecenas nec convallis nulla, sit amet hendrerit orci. Nam quis orci dignissim, rutrum.</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 8, \"caption\": \"\", \"sort_order\": 0, \"image\": 4, \"pk\": 4}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 0, \"product\": 8, \"slug\": \"joannanewsomyscd\", \"ref\": \"cd\", \"pk\": 6, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 20, \"product\": 8, \"slug\": \"joannanewsomysvinyl\", \"ref\": \"vinyl\", \"pk\": 7, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/joanna-newsom-ys/\", \"search_description\": \"\", \"path\": \"0001000100010004\", \"expired\": false, \"title\": \"Joanna Newsom - Ys\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"joanna-newsom-ys\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 8, \"tag\": 8, \"pk\": 21}, {\"content_object\": 8, \"tag\": 1, \"pk\": 22}, {\"content_object\": 8, \"tag\": 11, \"pk\": 23}, {\"content_object\": 8, \"tag\": 5, \"pk\": 24}], \"pk\": 8, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nibh orci. Maecenas nec convallis nulla, sit amet hendrerit orci. Nam quis orci dignissim, rutrum.</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 8, \"caption\": \"\", \"sort_order\": 0, \"image\": 4, \"pk\": 4}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 0, \"product\": 8, \"slug\": \"joannanewsomyscd\", \"ref\": \"cd\", \"pk\": 6, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 20, \"product\": 8, \"slug\": \"joannanewsomysvinyl\", \"ref\": \"vinyl\", \"pk\": 7, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/joanna-newsom-ys/\", \"search_description\": \"\", \"path\": \"0001000100010004\", \"expired\": false, \"title\": \"Joanna Newsom - Ys\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2451,7 +1919,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:56:22.396Z",
     "user": 1,
-    "content_json": "{\"slug\": \"microphones-glow-part-2\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 9, \"tag\": 8, \"pk\": 25}, {\"content_object\": 9, \"tag\": 1, \"pk\": 26}, {\"content_object\": 9, \"tag\": 5, \"pk\": 27}, {\"content_object\": 9, \"tag\": 14, \"pk\": 28}], \"pk\": 9, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est nisl, tempor nec magna varius, aliquam porta ipsum. Duis tempus faucibus justo sed laoreet. Proin.<br/></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 9, \"caption\": \"\", \"sort_order\": 0, \"image\": 7, \"pk\": 5}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 55, \"product\": 9, \"slug\": \"themicrophonestheglowpart2cd\", \"ref\": \"cd\", \"pk\": 8, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 6, \"product\": 9, \"slug\": \"themicrophonestheglowpart2vinyl\", \"ref\": \"vinyl\", \"pk\": 9, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/microphones-glow-part-2/\", \"search_description\": \"\", \"path\": \"0001000100010005\", \"expired\": false, \"title\": \"The Microphones - The Glow Part 2\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"microphones-glow-part-2\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 9, \"tag\": 8, \"pk\": 25}, {\"content_object\": 9, \"tag\": 1, \"pk\": 26}, {\"content_object\": 9, \"tag\": 5, \"pk\": 27}, {\"content_object\": 9, \"tag\": 14, \"pk\": 28}], \"pk\": 9, \"depth\": 4, \"description\": \"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est nisl, tempor nec magna varius, aliquam porta ipsum. Duis tempus faucibus justo sed laoreet. Proin.<br/></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 9, \"caption\": \"\", \"sort_order\": 0, \"image\": 7, \"pk\": 5}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 55, \"product\": 9, \"slug\": \"themicrophonestheglowpart2cd\", \"ref\": \"cd\", \"pk\": 8, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 6, \"product\": 9, \"slug\": \"themicrophonestheglowpart2vinyl\", \"ref\": \"vinyl\", \"pk\": 9, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/microphones-glow-part-2/\", \"search_description\": \"\", \"path\": \"0001000100010005\", \"expired\": false, \"title\": \"The Microphones - The Glow Part 2\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2463,7 +1931,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:57:34.168Z",
     "user": 1,
-    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Debut EP from the french/english folksters<br/></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [{\"product\": 5, \"caption\": \"\", \"sort_order\": 0, \"image\": 1, \"pk\": 1}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-04-11T07:31:15.796Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Debut EP from the french/english folksters<br/></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [{\"product\": 5, \"caption\": \"\", \"sort_order\": 0, \"image\": 1, \"pk\": 1}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-04-11T07:31:15.796Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2475,7 +1943,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T07:58:33.272Z",
     "user": 1,
-    "content_json": "{\"slug\": \"midlake-trials-van-occupanther\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 10, \"tag\": 8, \"pk\": 33}, {\"content_object\": 10, \"tag\": 1, \"pk\": 34}, {\"content_object\": 10, \"tag\": 5, \"pk\": 35}, {\"content_object\": 10, \"tag\": 13, \"pk\": 36}], \"pk\": 10, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 10, \"caption\": \"\", \"sort_order\": 0, \"image\": 6, \"pk\": 6}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 10, \"product\": 10, \"slug\": \"midlakethetrialsofvanoccupanthercd\", \"ref\": \"cd\", \"pk\": 10, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/midlake-trials-van-occupanther/\", \"search_description\": \"\", \"path\": \"0001000100010006\", \"expired\": false, \"title\": \"Midlake - The Trials of Van Occupanther\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"midlake-trials-van-occupanther\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 10, \"tag\": 8, \"pk\": 33}, {\"content_object\": 10, \"tag\": 1, \"pk\": 34}, {\"content_object\": 10, \"tag\": 5, \"pk\": 35}, {\"content_object\": 10, \"tag\": 13, \"pk\": 36}], \"pk\": 10, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 10, \"caption\": \"\", \"sort_order\": 0, \"image\": 6, \"pk\": 6}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 10, \"product\": 10, \"slug\": \"midlakethetrialsofvanoccupanthercd\", \"ref\": \"cd\", \"pk\": 10, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/midlake-trials-van-occupanther/\", \"search_description\": \"\", \"path\": \"0001000100010006\", \"expired\": false, \"title\": \"Midlake - The Trials of Van Occupanther\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2487,7 +1955,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:02:21.352Z",
     "user": 1,
-    "content_json": "{\"slug\": \"sufjan-stevens-carrie-and-lowell\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 11, \"tag\": 8, \"pk\": 37}, {\"content_object\": 11, \"tag\": 1, \"pk\": 38}, {\"content_object\": 11, \"tag\": 12, \"pk\": 39}, {\"content_object\": 11, \"tag\": 5, \"pk\": 40}], \"pk\": 11, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 11, \"caption\": \"\", \"sort_order\": 0, \"image\": 5, \"pk\": 7}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 15, \"product\": 11, \"slug\": \"sufjanstevenscarrieandlowellcd\", \"ref\": \"cd\", \"pk\": 11, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 5, \"product\": 11, \"slug\": \"sufjanstevenscarrieandlowellvinyl\", \"ref\": \"vinyl\", \"pk\": 12, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/sufjan-stevens-carrie-and-lowell/\", \"search_description\": \"\", \"path\": \"0001000100010007\", \"expired\": false, \"title\": \"Sufjan Stevens - Carrie and Lowell\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"sufjan-stevens-carrie-and-lowell\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 11, \"tag\": 8, \"pk\": 37}, {\"content_object\": 11, \"tag\": 1, \"pk\": 38}, {\"content_object\": 11, \"tag\": 12, \"pk\": 39}, {\"content_object\": 11, \"tag\": 5, \"pk\": 40}], \"pk\": 11, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 11, \"caption\": \"\", \"sort_order\": 0, \"image\": 5, \"pk\": 7}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 15, \"product\": 11, \"slug\": \"sufjanstevenscarrieandlowellcd\", \"ref\": \"cd\", \"pk\": 11, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 5, \"product\": 11, \"slug\": \"sufjanstevenscarrieandlowellvinyl\", \"ref\": \"vinyl\", \"pk\": 12, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/sufjan-stevens-carrie-and-lowell/\", \"search_description\": \"\", \"path\": \"0001000100010007\", \"expired\": false, \"title\": \"Sufjan Stevens - Carrie and Lowell\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2499,7 +1967,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:32:04.664Z",
     "user": 1,
-    "content_json": "{\"slug\": \"iron-wine-our-endless-numbered-days\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 12, \"tag\": 8, \"pk\": 41}, {\"content_object\": 12, \"tag\": 1, \"pk\": 42}, {\"content_object\": 12, \"tag\": 15, \"pk\": 43}], \"pk\": 12, \"depth\": 4, \"description\": \"<p><p>Seminal, critically acclaimed album from Iron &amp; Wine</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 12, \"caption\": \"\", \"sort_order\": 0, \"image\": 8, \"pk\": 8}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 10, \"product\": 12, \"slug\": \"ironwineourendlessnumbereddayscd\", \"ref\": \"cd\", \"pk\": 13, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/iron-wine-our-endless-numbered-days/\", \"search_description\": \"\", \"path\": \"0001000100010008\", \"expired\": false, \"title\": \"Iron & Wine - Our Endless Numbered Days\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"iron-wine-our-endless-numbered-days\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 12, \"tag\": 8, \"pk\": 41}, {\"content_object\": 12, \"tag\": 1, \"pk\": 42}, {\"content_object\": 12, \"tag\": 15, \"pk\": 43}], \"pk\": 12, \"depth\": 4, \"description\": \"<p><p>Seminal, critically acclaimed album from Iron &amp; Wine</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 12, \"caption\": \"\", \"sort_order\": 0, \"image\": 8, \"pk\": 8}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 10, \"product\": 12, \"slug\": \"ironwineourendlessnumbereddayscd\", \"ref\": \"cd\", \"pk\": 13, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/iron-wine-our-endless-numbered-days/\", \"search_description\": \"\", \"path\": \"0001000100010008\", \"expired\": false, \"title\": \"Iron & Wine - Our Endless Numbered Days\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2511,7 +1979,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:33:58.630Z",
     "user": 1,
-    "content_json": "{\"slug\": \"decemberists-picaresque\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 13, \"tag\": 8, \"pk\": 44}, {\"content_object\": 13, \"tag\": 1, \"pk\": 45}, {\"content_object\": 13, \"tag\": 5, \"pk\": 46}, {\"content_object\": 13, \"tag\": 16, \"pk\": 47}], \"pk\": 13, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 13, \"caption\": \"\", \"sort_order\": 0, \"image\": 9, \"pk\": 9}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"20.99\", \"stock\": 5, \"product\": 13, \"slug\": \"thedecemberistspicaresquevinyl\", \"ref\": \"vinyl\", \"pk\": 14, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/decemberists-picaresque/\", \"search_description\": \"\", \"path\": \"0001000100010009\", \"expired\": false, \"title\": \"The Decemberists - Picaresque\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"decemberists-picaresque\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 13, \"tag\": 8, \"pk\": 44}, {\"content_object\": 13, \"tag\": 1, \"pk\": 45}, {\"content_object\": 13, \"tag\": 5, \"pk\": 46}, {\"content_object\": 13, \"tag\": 16, \"pk\": 47}], \"pk\": 13, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 13, \"caption\": \"\", \"sort_order\": 0, \"image\": 9, \"pk\": 9}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"20.99\", \"stock\": 5, \"product\": 13, \"slug\": \"thedecemberistspicaresquevinyl\", \"ref\": \"vinyl\", \"pk\": 14, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/decemberists-picaresque/\", \"search_description\": \"\", \"path\": \"0001000100010009\", \"expired\": false, \"title\": \"The Decemberists - Picaresque\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2523,7 +1991,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:37:20.231Z",
     "user": 1,
-    "content_json": "{\"slug\": \"tallest-man-earth-wild-hunt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 14, \"tag\": 8, \"pk\": 48}, {\"content_object\": 14, \"tag\": 1, \"pk\": 49}, {\"content_object\": 14, \"tag\": 18, \"pk\": 50}, {\"content_object\": 14, \"tag\": 5, \"pk\": 51}, {\"content_object\": 14, \"tag\": 17, \"pk\": 52}], \"pk\": 14, \"depth\": 4, \"description\": \"<p>Superb sophomore album from Swedens' \\u00a0The Tallest Man on Earth</p><p>Listen to the second track:</p><p></p><embed embedtype=\\\"media\\\" url=\\\"https://www.youtube.com/watch?v=XOlm4OIpx4s&amp;list=PL_3jRxb_XvLlWDfSSLlr4ZLEBwzYvcjRI\\\"/><br/><p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 14, \"caption\": \"\", \"sort_order\": 0, \"image\": 10, \"pk\": 10}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 44, \"product\": 14, \"slug\": \"thetallestmanonearththewildhuntcd\", \"ref\": \"cd\", \"pk\": 15, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 20, \"product\": 14, \"slug\": \"thetallestmanonearththewildhuntvinyl\", \"ref\": \"vinyl\", \"pk\": 16, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/tallest-man-earth-wild-hunt/\", \"search_description\": \"\", \"path\": \"000100010001000A\", \"expired\": false, \"title\": \"The Tallest Man On Earth - The Wild Hunt\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"tallest-man-earth-wild-hunt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 14, \"tag\": 8, \"pk\": 48}, {\"content_object\": 14, \"tag\": 1, \"pk\": 49}, {\"content_object\": 14, \"tag\": 18, \"pk\": 50}, {\"content_object\": 14, \"tag\": 5, \"pk\": 51}, {\"content_object\": 14, \"tag\": 17, \"pk\": 52}], \"pk\": 14, \"depth\": 4, \"description\": \"<p>Superb sophomore album from Swedens' \\u00a0The Tallest Man on Earth</p><p>Listen to the second track:</p><p></p><embed embedtype=\\\"media\\\" url=\\\"https://www.youtube.com/watch?v=XOlm4OIpx4s&amp;list=PL_3jRxb_XvLlWDfSSLlr4ZLEBwzYvcjRI\\\"/><br/><p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 14, \"caption\": \"\", \"sort_order\": 0, \"image\": 10, \"pk\": 10}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 44, \"product\": 14, \"slug\": \"thetallestmanonearththewildhuntcd\", \"ref\": \"cd\", \"pk\": 15, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 20, \"product\": 14, \"slug\": \"thetallestmanonearththewildhuntvinyl\", \"ref\": \"vinyl\", \"pk\": 16, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/tallest-man-earth-wild-hunt/\", \"search_description\": \"\", \"path\": \"000100010001000A\", \"expired\": false, \"title\": \"The Tallest Man On Earth - The Wild Hunt\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2535,7 +2003,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:41:28.273Z",
     "user": 1,
-    "content_json": "{\"slug\": \"fleet-foxes-fleet-foxes\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 6, \"tag\": 8, \"pk\": null}, {\"content_object\": 6, \"tag\": 1, \"pk\": null}, {\"content_object\": 6, \"tag\": 5, \"pk\": null}, {\"content_object\": 6, \"tag\": 7, \"pk\": null}], \"pk\": 6, \"depth\": 4, \"description\": \"<p>Fleet foxes debut album</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-04-11T07:38:26.587Z\", \"images\": [{\"product\": 6, \"caption\": \"\", \"sort_order\": 0, \"image\": 2, \"pk\": 2}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 0, \"product\": 6, \"slug\": \"fleetfoxesfleetfoxescd\", \"ref\": \"cd\", \"pk\": null, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/fleet-foxes-fleet-foxes/\", \"search_description\": \"\", \"path\": \"0001000100010002\", \"expired\": false, \"title\": \"Fleet Foxes - Fleet Foxes\", \"latest_revision_created_at\": \"2017-04-11T07:38:26.535Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"fleet-foxes-fleet-foxes\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 6, \"tag\": 8, \"pk\": null}, {\"content_object\": 6, \"tag\": 1, \"pk\": null}, {\"content_object\": 6, \"tag\": 5, \"pk\": null}, {\"content_object\": 6, \"tag\": 7, \"pk\": null}], \"pk\": 6, \"depth\": 4, \"description\": \"<p>Fleet foxes debut album</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-04-11T07:38:26.587Z\", \"images\": [{\"product\": 6, \"caption\": \"\", \"sort_order\": 0, \"image\": 2, \"pk\": 2}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 0, \"product\": 6, \"slug\": \"fleetfoxesfleetfoxescd\", \"ref\": \"cd\", \"pk\": null, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/fleet-foxes-fleet-foxes/\", \"search_description\": \"\", \"path\": \"0001000100010002\", \"expired\": false, \"title\": \"Fleet Foxes - Fleet Foxes\", \"latest_revision_created_at\": \"2017-04-11T07:38:26.535Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2547,7 +2015,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:41:31.096Z",
     "user": 1,
-    "content_json": "{\"slug\": \"fleet-foxes-fleet-foxes\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 6, \"tag\": 8, \"pk\": null}, {\"content_object\": 6, \"tag\": 1, \"pk\": null}, {\"content_object\": 6, \"tag\": 5, \"pk\": null}, {\"content_object\": 6, \"tag\": 7, \"pk\": null}], \"pk\": 6, \"depth\": 4, \"description\": \"<p>Fleet foxes debut album</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-04-11T07:38:26.587Z\", \"images\": [{\"product\": null, \"caption\": \"\", \"sort_order\": 0, \"image\": 2, \"pk\": 2}], \"content_type\": 34, \"has_unpublished_changes\": true, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 0, \"product\": 6, \"slug\": \"fleetfoxesfleetfoxescd\", \"ref\": \"cd\", \"pk\": null, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/fleet-foxes-fleet-foxes/\", \"search_description\": \"\", \"path\": \"0001000100010002\", \"expired\": false, \"title\": \"Fleet Foxes - Fleet Foxes\", \"latest_revision_created_at\": \"2017-04-11T08:41:28.273Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"fleet-foxes-fleet-foxes\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 6, \"tag\": 8, \"pk\": null}, {\"content_object\": 6, \"tag\": 1, \"pk\": null}, {\"content_object\": 6, \"tag\": 5, \"pk\": null}, {\"content_object\": 6, \"tag\": 7, \"pk\": null}], \"pk\": 6, \"depth\": 4, \"description\": \"<p>Fleet foxes debut album</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-04-11T07:38:26.587Z\", \"images\": [{\"product\": null, \"caption\": \"\", \"sort_order\": 0, \"image\": 2, \"pk\": 2}], \"content_type\": 34, \"has_unpublished_changes\": true, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 0, \"product\": 6, \"slug\": \"fleetfoxesfleetfoxescd\", \"ref\": \"cd\", \"pk\": null, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/fleet-foxes-fleet-foxes/\", \"search_description\": \"\", \"path\": \"0001000100010002\", \"expired\": false, \"title\": \"Fleet Foxes - Fleet Foxes\", \"latest_revision_created_at\": \"2017-04-11T08:41:28.273Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2559,7 +2027,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:45:55.011Z",
     "user": 1,
-    "content_json": "{\"slug\": \"tallest-man-earth-shallow-grave\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 15, \"tag\": 8, \"pk\": 57}, {\"content_object\": 15, \"tag\": 1, \"pk\": 58}, {\"content_object\": 15, \"tag\": 18, \"pk\": 59}, {\"content_object\": 15, \"tag\": 5, \"pk\": 60}, {\"content_object\": 15, \"tag\": 17, \"pk\": 61}], \"pk\": 15, \"depth\": 4, \"description\": \"<p>Debut album from the Swedish folkster</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 15, \"caption\": \"\", \"sort_order\": 0, \"image\": 11, \"pk\": 11}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"5.99\", \"stock\": 0, \"product\": 15, \"slug\": \"thetallestmanonearthshallowgravecd\", \"ref\": \"cd\", \"pk\": 18, \"music_format\": \"CD\"}, {\"price\": \"16.96\", \"stock\": 0, \"product\": 15, \"slug\": \"thetallestmanonearthshallowgravevinyl\", \"ref\": \"vinyl\", \"pk\": 19, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/tallest-man-earth-shallow-grave/\", \"search_description\": \"\", \"path\": \"000100010001000B\", \"expired\": false, \"title\": \"The Tallest Man On Earth - Shallow Grave\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"tallest-man-earth-shallow-grave\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 15, \"tag\": 8, \"pk\": 57}, {\"content_object\": 15, \"tag\": 1, \"pk\": 58}, {\"content_object\": 15, \"tag\": 18, \"pk\": 59}, {\"content_object\": 15, \"tag\": 5, \"pk\": 60}, {\"content_object\": 15, \"tag\": 17, \"pk\": 61}], \"pk\": 15, \"depth\": 4, \"description\": \"<p>Debut album from the Swedish folkster</p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 15, \"caption\": \"\", \"sort_order\": 0, \"image\": 11, \"pk\": 11}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"5.99\", \"stock\": 0, \"product\": 15, \"slug\": \"thetallestmanonearthshallowgravecd\", \"ref\": \"cd\", \"pk\": 18, \"music_format\": \"CD\"}, {\"base_price\": \"16.96\", \"stock\": 0, \"product\": 15, \"slug\": \"thetallestmanonearthshallowgravevinyl\", \"ref\": \"vinyl\", \"pk\": 19, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/tallest-man-earth-shallow-grave/\", \"search_description\": \"\", \"path\": \"000100010001000B\", \"expired\": false, \"title\": \"The Tallest Man On Earth - Shallow Grave\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2571,7 +2039,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:49:12.106Z",
     "user": 1,
-    "content_json": "{\"slug\": \"wilco-yankee-hotel-foxtrot\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 16, \"tag\": 8, \"pk\": 62}, {\"content_object\": 16, \"tag\": 1, \"pk\": 63}, {\"content_object\": 16, \"tag\": 19, \"pk\": 64}], \"pk\": 16, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 16, \"caption\": \"\", \"sort_order\": 0, \"image\": 12, \"pk\": 12}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"5.99\", \"stock\": 10, \"product\": 16, \"slug\": \"wilcoyankeehotelfoxtrotcd\", \"ref\": \"cd\", \"pk\": 20, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/wilco-yankee-hotel-foxtrot/\", \"search_description\": \"\", \"path\": \"000100010001000C\", \"expired\": false, \"title\": \"Wilco - Yankee Hotel Foxtrot\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"wilco-yankee-hotel-foxtrot\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 16, \"tag\": 8, \"pk\": 62}, {\"content_object\": 16, \"tag\": 1, \"pk\": 63}, {\"content_object\": 16, \"tag\": 19, \"pk\": 64}], \"pk\": 16, \"depth\": 4, \"description\": \"<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": null, \"images\": [{\"product\": 16, \"caption\": \"\", \"sort_order\": 0, \"image\": 12, \"pk\": 12}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"5.99\", \"stock\": 10, \"product\": 16, \"slug\": \"wilcoyankeehotelfoxtrotcd\", \"ref\": \"cd\", \"pk\": 20, \"music_format\": \"CD\"}], \"url_path\": \"/home/products/wilco-yankee-hotel-foxtrot/\", \"search_description\": \"\", \"path\": \"000100010001000C\", \"expired\": false, \"title\": \"Wilco - Yankee Hotel Foxtrot\", \"latest_revision_created_at\": null, \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2583,7 +2051,7 @@
     "submitted_for_moderation": false,
     "created_at": "2017-04-11T08:51:40.823Z",
     "user": 1,
-    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Debut EP from the french/english folksters.<br/></p><p>Listen to a track from the EP:</p><p></p><embed embedtype=\\\"media\\\" url=\\\"https://www.youtube.com/watch?v=zp2z2JlTzxY\\\"/><br/><p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [{\"product\": 5, \"caption\": \"\", \"sort_order\": 0, \"image\": 1, \"pk\": 1}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-04-11T07:57:34.168Z\", \"locked\": false, \"numchild\": 0}",
+    "content_json": "{\"slug\": \"t-shirt\", \"seo_title\": \"\", \"tagged_items\": [{\"content_object\": 5, \"tag\": 1, \"pk\": null}, {\"content_object\": 5, \"tag\": 4, \"pk\": null}, {\"content_object\": 5, \"tag\": 5, \"pk\": null}, {\"content_object\": 5, \"tag\": 6, \"pk\": null}], \"pk\": 5, \"depth\": 4, \"description\": \"<p>Debut EP from the french/english folksters.<br/></p><p>Listen to a track from the EP:</p><p></p><embed embedtype=\\\"media\\\" url=\\\"https://www.youtube.com/watch?v=zp2z2JlTzxY\\\"/><br/><p></p>\", \"expire_at\": null, \"owner\": 1, \"first_published_at\": \"2017-03-31T07:09:27.888Z\", \"images\": [{\"product\": 5, \"caption\": \"\", \"sort_order\": 0, \"image\": 1, \"pk\": 1}], \"content_type\": 34, \"has_unpublished_changes\": false, \"show_in_menus\": false, \"go_live_at\": null, \"live\": true, \"variants\": [{\"base_price\": \"7.99\", \"stock\": 5, \"product\": 5, \"slug\": \"atshirtsmall\", \"ref\": \"cd\", \"pk\": 1, \"music_format\": \"CD\"}, {\"base_price\": \"15.99\", \"stock\": 5, \"product\": 5, \"slug\": \"ramshacklesbluebellwoodsvinyl\", \"ref\": \"vinyl\", \"pk\": 4, \"music_format\": \"Vinyl\"}], \"url_path\": \"/home/products/t-shirt/\", \"search_description\": \"\", \"path\": \"0001000100010001\", \"expired\": false, \"title\": \"Ramshackles - Bluebell Woods\", \"latest_revision_created_at\": \"2017-04-11T07:57:34.168Z\", \"locked\": false, \"numchild\": 0}",
     "approved_go_live_at": null
   }
 },
@@ -2714,89 +2182,89 @@
   }
 },
 {
-  "model": "longclawproducts.productindex",
+  "model": "products.mycustomproductindex",
   "pk": 4,
   "fields": {}
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 5,
   "fields": {
     "description": "<p>Debut EP from the french/english folksters.<br/></p><p>Listen to a track from the EP:</p><p></p><embed embedtype=\"media\" url=\"https://www.youtube.com/watch?v=zp2z2JlTzxY\"/><br/><p></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 6,
   "fields": {
     "description": "<p>Fleet foxes debut album</p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 7,
   "fields": {
     "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus metus, ut semper diam. Ut ac vulputate ligula. Maecenas ut nulla id neque consequat iaculis sed venenatis augue.\u00a0</p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 8,
   "fields": {
     "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nibh orci. Maecenas nec convallis nulla, sit amet hendrerit orci. Nam quis orci dignissim, rutrum.</p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 9,
   "fields": {
     "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est nisl, tempor nec magna varius, aliquam porta ipsum. Duis tempus faucibus justo sed laoreet. Proin.<br/></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 10,
   "fields": {
     "description": "<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 11,
   "fields": {
     "description": "<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 12,
   "fields": {
     "description": "<p><p>Seminal, critically acclaimed album from Iron &amp; Wine</p><p><br/></p></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 13,
   "fields": {
     "description": "<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 14,
   "fields": {
     "description": "<p>Superb sophomore album from Swedens' \u00a0The Tallest Man on Earth</p><p>Listen to the second track:</p><p></p><embed embedtype=\"media\" url=\"https://www.youtube.com/watch?v=XOlm4OIpx4s&amp;list=PL_3jRxb_XvLlWDfSSLlr4ZLEBwzYvcjRI\"/><br/><p></p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 15,
   "fields": {
     "description": "<p>Debut album from the Swedish folkster</p>"
   }
 },
 {
-  "model": "longclawproducts.product",
+  "model": "products.mycustomproduct",
   "pk": 16,
   "fields": {
     "description": "<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam.</p><p><br/></p></p>"
