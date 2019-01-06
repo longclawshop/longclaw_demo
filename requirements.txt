@@ -1,4 +1,4 @@
 Django>=1.10,<2.0
 wagtail>=1.12.1,<2.0
--e git+https://github.com/JamesRamm/longclaw.git#egg=longclaw
+longclaw>=0.2
 django-crispy-forms==1.6.1

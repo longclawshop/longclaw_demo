@@ -4,8 +4,7 @@ Longclaw Demo
 Demo shop for Longclaw
 
 
-> This demo and Longclaw are currently in pre-release development. I am working hard to get a stable v0.1.0 release available. It is likely there will be further breaking changes until then.
-
+> The longclaw master branch is now on version 1.0.0 which will be officially released before the end of January (2019) and contains breaking changes. Longclaw_demo is undergoing changes to bring it up to date. Therefore I __DO NOT__ reccommend using the demo as a starting point for new longclaw sites right now - use the `longclaw start` command to scaffold out a new project.
 
 Quickstart
 ----------
