@@ -13,7 +13,9 @@ RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh
 ADD . .
 
 RUN pip install -r requirements.txt
-RUN python manage.py migrate
+RUN python manage.py makemigrations catalog home \
+    && python manage.py migrate \
+    && python manage.py loadcountries
 
 EXPOSE 8000
 CMD python manage.py runserver 0.0.0.0:8000
