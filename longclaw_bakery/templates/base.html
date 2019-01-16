@@ -1,0 +1,50 @@
+{% load static wagtailuserbar %}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>{% block title %}{% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}{% endblock %}{% block title_suffix %}{% endblock %}</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {# Global stylesheets #}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/longclaw_bakery.css' %}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        {% block extra_css %}
+            {# Override this in templates to add extra stylesheets #}
+        {% endblock %}
+    </head>
+
+    <body class="{% block body_class %}{% endblock %}">
+        <div class="layout">
+            {% wagtailuserbar %}
+            <div class="header">
+                <div>
+                    <a href="/products">Products</a>
+                </div>
+                <div>
+                    <a class="header-brand" href="/">Longclaw Bakery</a>
+                </div>
+                <div>
+                    <a href="{% url 'longclaw_basket' %}"><span id="basket-item-count"> </span><i class="fas fa-shopping-basket fa-lg" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="main">
+            {% block content %}{% endblock %}
+            </div>
+        </div>
+
+        {# Global javascript #}
+        <script type="text/javascript" src="{% static 'js/longclaw_bakery.js' %}"></script>
+
+        {% block extra_js %}
+            {# Override this in templates to add extra javascript #}
+        {% endblock %}
+    </body>
+</html>

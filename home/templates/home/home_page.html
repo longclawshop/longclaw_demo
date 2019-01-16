@@ -3,8 +3,9 @@
 {% block body_class %}template-homepage{% endblock %}
 
 {% block content %}
-    <h1>Longclaw Demo Shop</h1>
-    <p>Welcome! This is a very simple shop intended to demonstrate basic usage of Longclaw</p>
-    <p>Longclaw is an e-commerce extension for Wagtail CMS. Read the documentation <a href="http://longclaw.readthedocs.io/en/latest/">here</a></p>
-    <p>To log into the admin use <i>demo</i> for the user name and password</p>
+    <h1>Welcome to the Longclaw Bakery!</h1>
+    <p>This is a demonstration site of the Longclaw E-Commerce extension for Wagtail</p>
+    <p>If you want to make your own site, it usually preferable to get started with longclaw project template, by running <code>longclaw start</code> rather than forking this project</p>
+    <p>You can access the admin interface <a href="{% url 'wagtailadmin_home' %}">here</a>. Login with admin/admin.
+    
 {% endblock %}
